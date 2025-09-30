@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { ZennArticle } from '../types';
 
-export const useZennArticles = (username: string = 'example') => {
+export const useZennArticles = (username: string = 'umeno0923') => {
   const [articles, setArticles] = useState<ZennArticle[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
