@@ -17,7 +17,8 @@ export interface Project {
   github_url: string;
   demo_url?: string;
   image?: string;
-  featured: boolean;
+  show_github?: boolean;
+  show_demo?: boolean;
 }
 
 export interface Skill {

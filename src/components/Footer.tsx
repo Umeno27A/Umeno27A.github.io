@@ -1,5 +1,4 @@
 import React from 'react';
-import { Heart } from 'lucide-react';
 import { profile } from '../data/profile';
 
 const Footer: React.FC = () => {
@@ -12,11 +11,6 @@ const Footer: React.FC = () => {
             {profile.bio}
           </p>
           
-          <div className="flex items-center justify-center gap-2 text-gray-400">
-            <span>Made with</span>
-            <Heart className="text-red-500" size={16} fill="currentColor" />
-            <span>using React + TypeScript + Tailwind CSS</span>
-          </div>
           
           <div className="mt-6 pt-6 border-t border-gray-800">
             <p className="text-gray-500 text-sm">

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calendar, Heart, ExternalLink, BookOpen } from 'lucide-react';
+import { Calendar, ExternalLink, BookOpen } from 'lucide-react';
 import { useZennArticles } from '../hooks/useZennArticles';
 
 const ZennArticles: React.FC = () => {
@@ -79,14 +79,10 @@ const ZennArticles: React.FC = () => {
                   </div>
 
                   {/* Meta Information */}
-                  <div className="flex items-center justify-between text-sm text-gray-500 mb-4">
+                  <div className="flex items-center text-sm text-gray-500 mb-4">
                     <div className="flex items-center gap-1">
                       <Calendar size={14} />
                       <time>{formatDate(article.published_at)}</time>
-                    </div>
-                    <div className="flex items-center gap-1">
-                      <Heart size={14} />
-                      <span>{article.likes_count}</span>
                     </div>
                   </div>
 
@@ -114,7 +110,7 @@ const ZennArticles: React.FC = () => {
         {/* View All Button */}
         <div className="text-center mt-12">
           <a
-            href="https://zenn.dev/example"
+            href="https://zenn.dev/umeno0923"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl"

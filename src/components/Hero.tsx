@@ -25,9 +25,11 @@ const Hero: React.FC = () => {
           <div className="mb-8 flex justify-center">
             <div className="relative">
               <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 p-1 shadow-2xl">
-                <div className="w-full h-full bg-white rounded-full flex items-center justify-center text-4xl sm:text-5xl font-bold text-gray-700">
-                  👨‍💻
-                </div>
+                <img
+                  src="/profile.jpg"
+                  alt="梅野 夢作繁"
+                  className="w-full h-full rounded-full object-cover"
+                />
               </div>
               <div className="absolute -inset-4 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full blur-lg opacity-25 animate-pulse"></div>
             </div>
