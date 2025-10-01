@@ -9,7 +9,10 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit -p tsconfig.app.json",
-    "deploy": "./deploy.sh"
+    "deploy": "./deploy.sh",
+    "deploy:quick": "npm run build && ./deploy.sh",
+    "clean": "rm -rf dist node_modules package-lock.json && npm install",
+    "status": "git status && echo '---' && git branch && echo '---' && ls -la dist/ 2>/dev/null || echo 'dist folder not found'"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.57.4",
