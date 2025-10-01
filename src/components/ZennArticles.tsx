@@ -44,7 +44,7 @@ const ZennArticles: React.FC = () => {
             技術記事
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Zennで公開している技術記事の一覧です。最新の技術トレンドや開発ノウハウをシェアしています
+            Zennで公開している記事の一覧です。
           </p>
         </div>
 
