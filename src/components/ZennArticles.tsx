@@ -1,8 +1,8 @@
-import React from 'react';
+import { FC } from 'react';
 import { Calendar, ExternalLink, BookOpen } from 'lucide-react';
 import { useZennArticles } from '../hooks/useZennArticles';
 
-const ZennArticles: React.FC = () => {
+const ZennArticles: FC = () => {
   const { articles, loading, error } = useZennArticles();
 
   const formatDate = (dateString: string) => {
