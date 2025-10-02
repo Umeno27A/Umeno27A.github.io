@@ -3,11 +3,11 @@ import { Project } from '../types';
 export const projects: Project[] = [
   {
     id: 1,
-    name: "デモ",
-    description: "デモ",
-    technologies: ["デモ"],
-    github_url: "https://task-app-demo.vercel.app",
-    demo_url: "https://task-app-demo.vercel.app",
+    name: "ポートフォリオ",
+    description: "バイブコーディングでポートフォリオサイトを作成しました。",
+    technologies: ["typescript", "HTML", "Shell", "javascript", "CSS"],
+    github_url: "https://github.com/Umeno27A/Umeno27A.github.io",
+    demo_url: "https://umeno0923.github.io/",
     show_github: true,
     show_demo: true
   },
