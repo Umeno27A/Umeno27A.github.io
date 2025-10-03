@@ -7,7 +7,7 @@ export const projects: Project[] = [
     description: "バイブコーディングでポートフォリオサイトを作成しました。",
     technologies: ["typescript", "HTML", "Shell", "javascript", "CSS"],
     github_url: "https://github.com/Umeno27A/Umeno27A.github.io",
-    demo_url: "https://umeno0923.github.io/",
+    demo_url: "https://umeno27a.github.io/",
     show_github: true,
     show_demo: true
   },
